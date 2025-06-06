@@ -1,0 +1,92 @@
+/* Universal styling to zero everything out */
+/* *{
+    margin : 0;
+    padding : 0;
+} */
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: yellow;
+}
+
+h1{
+    /* color: #333; */
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+
+body{
+    background-color: #f4f4f4;
+    /* color: #ffffff; */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    /* use percent for responsiveness */
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+    border: 5px solid red;
+    border-width: 3px;
+    border-top-style:dotted;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.box-1 h1{
+    color: #fff;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #CCC;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: square;
+    list-style: none;
+
+}
