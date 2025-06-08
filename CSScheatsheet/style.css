@@ -17,8 +17,25 @@ a:active{
     color: green;
 }
 
-a:visited{
+/* a:visited{
     color: yellow;
+} */
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+.clearfix{
+    clear: both;
 }
 
 h1{
@@ -89,4 +106,60 @@ body{
     list-style: square;
     list-style: none;
 
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #ccc;
+    list-style-image: url('..check.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"], .my-form button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to bottom */
+    min-height: 200px; /* Set a minimum height for alignment */
+}
+
+#main-block{
+    float:left;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width */
 }
