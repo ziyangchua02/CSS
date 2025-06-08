@@ -145,10 +145,6 @@ body{
     border: 1px solid #ccc;
     padding: 10px;
     box-sizing: border-box; /* Ensures padding is included in width */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Aligns content to bottom */
-    min-height: 200px; /* Set a minimum height for alignment */
 }
 
 #main-block{
