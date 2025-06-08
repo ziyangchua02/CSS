@@ -159,3 +159,35 @@ body{
     padding: 20px;
     box-sizing: border-box; /* Ensures padding is included in width */
 }
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image:url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box h1{
+    width: 800px;
+    position: absolute;
+    top: 40px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px
+}
+    
+.mylist li:first-child{
+    background: red;
+}
