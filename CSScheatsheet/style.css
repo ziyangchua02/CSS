@@ -188,6 +188,18 @@ body{
     top: 400px
 }
     
-.mylist li:first-child{
+.my-list li:first-child{
     background: red;
+}
+
+.my-list li:last-child{
+    background: rgb(89, 0, 255);
+}
+
+.my-list li:nth-child(4){
+    background: green;
+}
+
+.my-list li:nth-child(even){
+    background: yellow;
 }
