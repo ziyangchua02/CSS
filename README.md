@@ -140,33 +140,6 @@ margin: 10px 20px 30px 40px;  /* Top | Right | Bottom | Left */
 
 ---
 
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd CSS
-   ```
-
-2. **Open any project:**
-   ```bash
-   # CSS Cheat Sheet
-   open CSScheatsheet/index.html
-   
-   # Flexbox Examples
-   open flexbot/main.html
-   
-   # Complete Website
-   open myWebsite/index.html
-   ```
-
-3. **Explore and experiment:**
-   - Modify CSS properties to see real-time changes
-   - Use browser developer tools to inspect elements
-   - Try different values and observe the effects
-
----
-
 ## 🎓 Learning Path
 
 ### **Beginner** 👶
@@ -195,37 +168,3 @@ margin: 10px 20px 30px 40px;  /* Top | Right | Bottom | Left */
 | CSS3 | ✅ Full | ✅ Full | ✅ Full | ✅ Full |
 
 ---
-
-## 📚 Additional Resources
-
-- 📖 [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- 🎮 [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- 🎯 [Can I Use - Browser Support](https://caniuse.com/)
-- 🎨 [CSS Grid Garden](https://cssgridgarden.com/)
-- 🐸 [Flexbox Froggy](https://flexboxfroggy.com/)
-
----
-
-## 🤝 Contributing
-
-Feel free to contribute by:
-- Adding new CSS examples
-- Improving existing code
-- Fixing bugs or issues
-- Enhancing documentation
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<div align="center">
-
-**Happy Coding! 🎉**
-
-*Made with ❤️ for the CSS learning community*
-
-</div>
